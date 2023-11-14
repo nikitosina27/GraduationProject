@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import '../styles/styles.css';
 import RegistrationButton from './RegistrationButton';
+import SearchPage from './SearchPage';
 
 const OMDb_API_KEY = '88560c1b';
 
@@ -41,6 +42,7 @@ const FilmsPage: React.FC = () => {
     <div>
       <header>
         <h1>MovieX</h1>
+        <SearchPage />
         <nav>
           <ul>
             <li><Link to="/">Главная</Link></li>
