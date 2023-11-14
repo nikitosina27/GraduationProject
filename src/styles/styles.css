@@ -1,0 +1,233 @@
+body {
+
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+header {
+  text-align: center;
+  background-color: #333333;
+  color: #fff;
+  padding: 1rem;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 20px;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 1rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: #4CAF50;}
+
+section {
+  margin: 2rem 0;
+ 
+}
+
+h2{
+  display: flex;
+  justify-content: center;
+}
+
+.movie-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.movie-item {
+  margin: 10px;
+  text-align: center;
+}
+
+.movie-item img {
+  width: 100%;
+  max-width: 200px; 
+  height: auto;
+}
+
+
+
+.movie-details-container {
+  text-align: center;
+  margin: 50px auto; 
+}
+
+.movie-poster-container {
+  margin-top: 20px;
+}
+
+.movie-poster {
+  max-width: 100%;
+  height: auto;
+}
+
+
+
+
+
+
+.films-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px; 
+}
+
+
+.film-item {
+  max-width: 150px; 
+  margin-bottom: 36px; 
+}
+
+
+.film-item img {
+  max-width: 100%; 
+  height: auto; 
+}
+
+
+
+
+
+
+.series-container {
+  text-align: center;
+}
+
+
+.series-list {
+  display: flex;
+  gap: 16px;
+  overflow-x: auto;
+}
+
+
+.series-item {
+  max-width: 150px;
+}
+
+
+.series-item img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+
+/* styles.css */
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* Высота 100% экрана */
+}
+
+.registration-form {
+  max-width: 300px; /* Максимальная ширина формы */
+  width: 100%;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  background-color: #fff;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #4CAF50;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 10px;
+  background-color: #333; /* Цвет фона */
+}
+
+input[type="text"] {
+  padding: 8px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.searchText{
+  width: 400px;
+  height: 50px;
+}
+
+.searchButton {
+  width: 100px;
+  height: 30px;
+  padding: 0px;
+  background-color: #4CAF50; 
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+label {
+  margin-right: 10px;
+  color: white; /* Цвет текста меток */
+}
+
+.pagination {
+  width: 700px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  gap: 10px;
+}
+
+.pagination a {
+  margin: 0 5px;
+  padding: 5px 10px;
+  font-size: 10px;
+}
