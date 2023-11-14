@@ -71,7 +71,7 @@ const SearchPage: React.FC<SearchPageProps> = ({ onSearch }) => {
         Поиск
       </button>
   
-      {searchResults && searchResults.length > 0 ? (
+      {searchResults && searchResults.length > 0 && (
         <ul>
           {searchResults.map((movie: any) => (
             <li key={movie.imdbID}>
@@ -79,9 +79,7 @@ const SearchPage: React.FC<SearchPageProps> = ({ onSearch }) => {
             </li>
           ))}
         </ul>
-      ) : (
-        <p>Нет результатов поиска</p>
-      )}
+      ) }
     </div>
   );
 };
